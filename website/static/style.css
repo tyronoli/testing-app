@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+}
+body{
+    width: 100%;
+    background-color: #f0f2f5;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+#form{
+    background-color: white;
+    position: relative;
+    width: 400px;
+    height: 350px;
+    padding: 15px;
+    margin-left: 60px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35);
+    text-align: center;
+}
+
+#btnLogin{
+  border: none;
+  background-color: #1877f2;
+  color: white;
+  margin: auto;
+  width: 370px;
+  display: block;
+  border-radius: 5px;
+  padding: 10px 0;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 20px
+}
+
+#email_1{
+    display: block;
+    background-color: #fff;
+    margin: auto;
+    border: 1.5px solid rgb(200, 200, 200);
+    width: 370px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    height: 50px;
+    color: black;
+    font-family: 'Segoe UI';
+
+}
+#password_1{
+    display: block;
+    background-color: #fff;
+    margin: auto;
+    border: 1.5px solid rgb(200, 200, 200);
+    width: 370px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    height: 50px;
+    color: black;
+    font-family: 'Segoe UI';
+
+}
+.f-pws{
+    display: block;
+    width: 200px;
+    margin: auto;
+    color: #1877f2;
+    margin-top: -10px;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+}
+.line{
+    border-top: 1px solid #222;
+    opacity: 0.2;
+}
+
+#btnCreate{
+    border: none;
+    width: 180px;
+    font-size: 14px;
+    background-color: #42b72a;
+    text-align: center;
+    height: 50px;
+    border-radius: 5px;
+    padding: 10px 0;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 15px
+
+    
+}
+
+.sub-link h3{
+    width: 270px;
+    position: absolute;
+    color: black;
+    font-family: "Segoe UI", Arial;
+    padding: 130px 890px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.sub-link h3 a{
+    color: black;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+#fb{
+    font-family: "Segoe UI", Arial;
+    font-size: 100px;
+    font-weight: bold;
+    color: #1877f2;
+    margin-bottom: 50px;
+}
+.title-box p{
+    color: black;
+    font-size: 26px;
+    font-weight: normal;
+    line-height: 32px;
+
+}
+
+/*-- Sign up --*/
+.signup_popup h1{
+    font-family: "Segoe UI", Arial;
+    font-size: 60px;
+    font-weight: bold;
+    color: #1877f2;
+    text-align: center;
+    margin-top: 60px;
+}
+.signup_popup{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background: #ffffff9f;
+}
+
+.all_items{
+    width: 450px;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35);
+}
+
+.popup_header{
+    border-bottom: 1px solid #dddfe2;
+    padding: 10px;
+    position: relative;
+}
+
+
+.popup_header h3{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Segoe UI", Arial;
+}
+.popup_header h2{
+    font-size: 16px;
+    text-align: center;
+    color: #606060;
+    font-weight: 500;
+    margin-top: 4px;
+
+    
+}
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+}
+.popup_form{
+    
+    padding: 15px;
+    width: 100%;
+}
+.inputs_box{
+    width: 100%;
+}
+.inputs_box #select_date{
+    width: 100%;
+    padding: 10px 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #c5c7ca;
+    border-radius: 6px;
+    outline: none;
+    color: #606060;
+    font-size: 15px;
+}
+.inputs_box span{
+    width: 100%;
+    padding-left: 10px;
+    padding-top: 10px;
+    white-space: nowrap;
+    justify-content: center ;
+    border: 1px solid #c5c7ca;
+    border-radius: 6px;
+    outline: none;
+    color: #606060;
+    font-size: 15px;
+}
+.inputs_box .gender{
+    padding-right: 45px;
+}
+.form_policy{
+    font-size: 11px;
+}
+#birthday{
+    font-size: 13px;
+    
+}
+#btnSignup{
+ 
+    border: none;
+    width: 180px;
+    transform: translateX(50%);
+    font-size: 14px;
+    background-color: #42b72a;
+    text-align: center;
+    height: 40px;
+    border-radius: 5px;
+    align-items: center;
+    margin-left: 100px;
+    margin: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 20px
+}

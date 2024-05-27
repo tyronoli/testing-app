@@ -1,0 +1,142 @@
+{% extends "base.html" %} {% block title %}Sign Up{% endblock %}
+
+
+{% block content %}
+
+
+<div class="signup_popup">
+    <h1>facebook</h1>
+    <div class="all_items">
+
+        <div class="popup_header">
+           
+            <h3>Create a new account</h3>
+            <h2>It's quick and easy</h2>
+        </div>
+        <div class="line"></div>
+        <form method="POST" class="popup_form">
+            
+            <div class="form-group">
+                
+                <input type="email" 
+                class="form-control" 
+                id="email"
+                name="email"
+                placeholder="Enter email">
+            </div>
+            <div class="form-group">
+            
+                <input type="password" 
+                class="form-control" 
+                id="password1"
+                name="password1"
+                placeholder="Enter password">
+            </div>
+
+            <div class="form-group">
+                
+                <input type="password" 
+                class="form-control" 
+                id="password2"
+                name="password2"
+                placeholder="Confirm password">
+            </div>
+            <div class="inputs_box flex">
+                <div class="form-group">
+                
+                    <input type="text" 
+                    class="form-control" 
+                    id="firstName"
+                    name="firstName"
+                    placeholder="First name">
+                </div>
+
+                <div class="form-group">
+                    
+                    <input type="text" 
+                    class="form-control" 
+                    id="lastName"
+                    name="lastName"
+                    placeholder="Last name">
+                </div>
+            </div>
+            <label id="birthday">Birthday</label>
+            <div class="inputs_box flex">
+                
+                <select id="select_date">
+                    <option value="Jan">Jan</option>
+                    <option value="Feb">Feb</option>
+                    <option value="Mar">Mar</option>
+                    <option value="Apr">Apr</option>
+                    <option value="May">May</option>
+                    <option value="Jun">Jun</option>
+                    <option value="Jul">Jul</option>
+                    <option value="Aug">Aug</option>
+                    <option value="Sep">Sep</option>
+                    <option value="Oct">Oct</option>
+                    <option value="Nov">Nov</option>
+                    <option value="Dec">Dec</option>
+                </select>
+                <select id="select_date">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+                
+                <select id="select_date">
+                    <option value="2001">2001</option>
+                    <option value="2002">2002</option>
+                    <option value="2003">2003</option>
+                    <option value="2004">2004</option>
+                    <option value="2005">2005</option>
+                    <option value="2006">2006</option>
+                    <option value="2007">2007</option>
+                    <option value="2008">2008</option>
+                    <option value="2009">2009</option>
+                    <option value="2010">2010</option>
+                    <option value="2011">2011</option>
+                    <option value="2012">2012</option>
+                    <option value="2013">2013</option>
+                    <option value="2014">2014</option>
+                    <option value="2015">2015</option>
+                    <option value="2016">2016</option>
+                    <option value="2017">2017</option>
+                </select>
+            </div>
+           
+            <label id="birthday">Gender</label>
+            <div class="inputs_box flex">
+                <span>
+                    <label for="female" class="gender">Female</label>
+                    <input type="radio" id="female">
+                    
+                </span>
+                <span>
+                    <label for="male" class="gender">Male</label>
+                    <input type="radio" id="male">
+                    
+                </span>
+                
+                <span>
+                    <label for="custom" class="gender">Custom</label>
+                    <input type="radio" id="custom">
+                    
+                </span>
+            </div>
+            <br>
+            <div class="form_policy">
+                <p>People who use our service may have uploaded your contact information to Facebook. Learn more.</p>
+                <p>By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy. You may receive SMS Notifications from us and can opt out any time.</p>
+            </div>
+            <button type="submit" class="btn btn-primary" id="btnSignup">Sign Up</button>
+        </form>
+    </div>
+</div>
+{% endblock %}
